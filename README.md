@@ -17,3 +17,9 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## Commands
+create migration: mix ecto.gen.migration create_users
+run migration: mix ecto.migrate
+reset database: mix ecto.reset
+mix deps.get: baixa todas as novas dependencias
